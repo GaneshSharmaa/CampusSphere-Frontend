@@ -20,6 +20,10 @@ The backend repository is [here](https://github.com/GaneshSharmaa/CampusSphere--
 
 <img src='/screenshots/landing-page.png' width=1000px>
 
+**Login page:**
+
+<img src='/screenshots/login-page.png' width=1000px>
+
 ---
 
 ### Features
