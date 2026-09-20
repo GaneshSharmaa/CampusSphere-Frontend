@@ -1,16 +1,69 @@
-# React + Vite
+# CampusSphere — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend application for **CampusSphere**, a multi-user campus management platform for managing students, academics, faculty, finances, schedules, and other academic workflows from a centralized interface.
 
-Currently, two official plugins are available:
+Built with **React and Vite**, with a focus on a clean, responsive, and role-aware user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Backend
 
-## React Compiler
+The frontend communicates with the CampusSphere backend API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The backend repository is [here](https://github.com/GaneshSharmaa/CampusSphere--A-Multi-User-Student-and-Academic-Management-Tool).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Features
+
+- Responsive landing page
+- User authentication
+- Login and registration flows
+- Dashboard
+- Student management
+- Academic management
+- Faculty management
+- Financial management
+- Schedule management
+- Settings
+- Role-based UI
+- Reusable UI components
+- API-driven application architecture
+
+---
+
+### Tech Stack
+
+- **React** — UI development
+- **Vite** — Frontend tooling and development server
+- **React Router** — Client-side routing
+- **Tailwind CSS** — Styling
+- **shadcn/ui** — Reusable UI components
+- **JavaScript** — Application logic
+- **ESLint** — Code quality and linting
+
+---
+
+### Project Structure
+
+```text
+src/
+├── assets/           # Images and static assets
+├── components/       # Reusable UI components
+├── data/             # Static/mock application data
+├── hooks/            # Custom React hooks
+├── lib/              # Utilities and shared logic
+├── pages/            # Application pages
+│   ├── Academics.jsx
+│   ├── Dashboard.jsx
+│   ├── Faculty.jsx
+│   ├── Financial.jsx
+│   ├── LandingPage.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   ├── Schedule.jsx
+│   ├── Settings.jsx
+│   └── Students.jsx
+├── App.jsx           # Application routes and root component
+├── main.jsx          # Application entry point
+└── index.css         # Global styles
+```
+
