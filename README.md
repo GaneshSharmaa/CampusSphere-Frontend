@@ -18,7 +18,7 @@ The backend repository is [here](https://github.com/GaneshSharmaa/CampusSphere--
 
 **Landing page:**
 
-<img src='/screenshots/landing-page.png' width=100px>
+<img src='/screenshots/landing-page.png' width=1000px>
 
 ---
 
