@@ -2,6 +2,8 @@
 
 The frontend application for **CampusSphere**, a multi-user campus management platform for managing students, academics, faculty, finances, schedules, and other academic workflows from a centralized interface.
 
+**This isn't final version, right now it is in active development stage. I've also attach some screenshots, you're curious, because there's nothing here right now to clone this repo and then run it on your machine :) Yes, I know you're little curious. ;)**
+
 Built with **React and Vite**, with a focus on a clean, responsive, and role-aware user experience.
 
 ## Backend
@@ -9,6 +11,14 @@ Built with **React and Vite**, with a focus on a clean, responsive, and role-awa
 The frontend communicates with the CampusSphere backend API.
 
 The backend repository is [here](https://github.com/GaneshSharmaa/CampusSphere--A-Multi-User-Student-and-Academic-Management-Tool).
+
+---
+
+### Screenshots
+
+**Landing page:**
+
+<img src='/screenshots/landing-page.png' width=100px>
 
 ---
 
